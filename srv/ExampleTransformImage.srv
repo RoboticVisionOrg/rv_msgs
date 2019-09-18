@@ -1,0 +1,5 @@
+# Request
+sensor_msgs/Image image_in
+---
+# Response
+sensor_msgs/Image image_out

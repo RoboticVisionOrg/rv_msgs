@@ -1,0 +1,5 @@
+# Request
+sensor_msgs/Image face_image
+---
+# Response
+string guessed_gender

@@ -1,0 +1,5 @@
+# Request
+sensor_msgs/Image face_image
+---
+# Response
+float32 estimated_age

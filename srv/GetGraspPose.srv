@@ -1,0 +1,15 @@
+# Request
+sensor_msgs/Image depth
+sensor_msgs/Image mask
+---
+# Response
+# NOTE:
+# Grasp does not have any specified frame (really should have a PoseStamped).
+# As a result, all sorts of dirtiness ensues (the BT wrapping Doug's service
+# has to manually TF into base_link, & we generally assume everything else is
+# in base_link). This is arbitrary, inconsistent, & may well burn us at some
+# point. It should be fixed & made consistent...
+bool success
+geometry_msgs/PoseStamped grasp_pose
+float32 width
+float32 quality

@@ -1,0 +1,14 @@
+# Goal definition
+float32 timeout_seconds
+bool wait_for_wake
+---
+
+# Result definition
+string text_heard
+---
+
+# Feedback
+uint8 STATUS_LISTENING=0
+uint8 STATUS_PROCESSING=1
+uint8 status
+
