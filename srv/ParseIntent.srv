@@ -1,0 +1,7 @@
+# Request
+string input_text
+string intent_type
+---
+# Response
+string intent_answer
+string intent_json

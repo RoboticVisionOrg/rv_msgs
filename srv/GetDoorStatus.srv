@@ -1,0 +1,5 @@
+# Request
+string door_name
+---
+# Response
+int8 result
