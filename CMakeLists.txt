@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(patrolbot_msgs)
+project(qut_msgs)
 
 # Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -8,7 +8,6 @@ find_package(catkin REQUIRED COMPONENTS
   # mvp_grasping
   actionlib_msgs
   message_generation
-  moveit_msgs
   sensor_msgs
   shape_msgs
   std_msgs
@@ -18,26 +17,26 @@ find_package(catkin REQUIRED COMPONENTS
 # confused so you have to compile the workspace from scratch when adding new
 # files)
 # file(
-#   GLOB patrolbot_msgs_MESSAGES
+#   GLOB qut_msgs_MESSAGES
 #   RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/msg"
 #   "./msg/*.msg"
 #   )
 # file(
-#   GLOB patrolbot_msgs_SERVICES
+#   GLOB qut_msgs_SERVICES
 #   RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/srv"
 #   "./srv/*.srv"
 #   )
 # file(
-#   GLOB patrolbot_msgs_ACTIONS
+#   GLOB qut_msgs_ACTIONS
 #   RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/action"
 #   "./action/*.action"
 #   )
 
-# add_message_files(FILES ${patrolbot_msgs_MESSAGES})
+# add_message_files(FILES ${qut_msgs_MESSAGES})
 
-# add_service_files(DIRECTORY srv FILES ${patrolbot_msgs_SERVICES})
+# add_service_files(DIRECTORY srv FILES ${qut_msgs_SERVICES})
 
-# add_action_files(DIRECTORY action FILES ${patrolbot_msgs_ACTIONS})
+# add_action_files(DIRECTORY action FILES ${qut_msgs_ACTIONS})
 
 # Proper way (use ':r !ls <dir_name>' to populate easily...)
 add_message_files(FILES
@@ -81,14 +80,12 @@ generate_messages(
   # mvp_grasping
   actionlib_msgs
   sensor_msgs
-  moveit_msgs
-  shape_msgs
   std_msgs
   )
 
 catkin_package(
   #  INCLUDE_DIRS include
-  #  LIBRARIES patrolbot_msgs
+  #  LIBRARIES qut_msgs
   CATKIN_DEPENDS actionlib_msgs
   #  DEPENDS system_lib
   )
