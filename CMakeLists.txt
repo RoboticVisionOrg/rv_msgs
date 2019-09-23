@@ -67,8 +67,11 @@ add_service_files(DIRECTORY srv FILES
   )
 
 add_action_files(DIRECTORY action FILES
+  ActuateGripper.action
   AskQuestion.action
   Listen.action
+  MoveToNamedLocation.action
+  MoveToPose.action
   SayString.action
   )
 
