@@ -41,25 +41,20 @@ find_package(catkin REQUIRED COMPONENTS
 
 # Proper way (use ':r !ls <dir_name>' to populate easily...)
 add_message_files(FILES
-  CollisionObjectFeedback.msg
-  CollisionObjectResult.msg
   Object.msg
-  MoveGripperFeedback.msg
-  MoveGripperResult.msg
   )
 
 add_service_files(DIRECTORY srv FILES
-  CalculateIK.srv
   EstimateAge.srv
   ExampleIsLunchHour.srv
   ExampleTransformImage.srv
   FindObjects.srv
-  GetGraspPose.srv
-  GetObjectPose.srv
   GetDoorStatus.srv
+  GetGraspPose.srv
   GetHoldingStatus.srv
   GetLocationList.srv
   GetLocationPose.srv
+  GetObjectPose.srv
   GetSyncedImages.srv
   GetTaskList.srv
   GuessGender.srv
@@ -72,24 +67,9 @@ add_service_files(DIRECTORY srv FILES
   )
 
 add_action_files(DIRECTORY action FILES
-  ActuateGripper.action
   AskQuestion.action
-  DoorOpening.action
-  ExampleHaveLunch.action
   Listen.action
-  MoveGripperToLocation.action
-  MoveGripperToPose.action
-  MoveGripperToPoseLinear.action
-  MoveRobotToPose.action
-  OpenDoor.action
-  PublishCollisionObject.action
-  PublishAttachedCollisionObject.action
-  RemoveCollisionObject.action
   SayString.action
-  ScanCamera.action
-  ServoGripperToPose.action
-  ServoRobotToAngleDiff.action
-  ServoRobotToPose.action
   )
 
 # Generate added messages and services with any dependencies listed here
