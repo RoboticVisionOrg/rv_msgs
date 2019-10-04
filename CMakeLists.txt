@@ -45,17 +45,14 @@ add_message_files(FILES
 
 add_service_files(DIRECTORY srv FILES
   EstimateAge.srv
-  ExampleIsLunchHour.srv
-  ExampleTransformImage.srv
   FindObjects.srv
   GetDoorStatus.srv
   GetGraspPose.srv
   GetHoldingStatus.srv
-  GetLocationList.srv
   GetLocationPose.srv
   GetObjectPose.srv
   GetSyncedImages.srv
-  GetTaskList.srv
+  GetNamesList.srv
   GuessGender.srv
   NamedPoseQuery.srv
   ParseIntent.srv
@@ -69,7 +66,7 @@ add_action_files(DIRECTORY action FILES
   ActuateGripper.action
   AskQuestion.action
   Listen.action
-  MoveToNamedLocation.action
+  MoveToNamedPose.action
   MoveToPose.action
   SayString.action
   )

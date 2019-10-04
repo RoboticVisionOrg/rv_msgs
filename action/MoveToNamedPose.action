@@ -1,5 +1,5 @@
 # Goal definition
-string location_name
+string pose_name
 ---
 # Result definition
 int8 result
