@@ -1,4 +1,4 @@
-qut_msgs Package
+rv_msgs Package
 ===
 
-This is the repository for the qut_msgs package.
+This is the repository for the rv_msgs package.

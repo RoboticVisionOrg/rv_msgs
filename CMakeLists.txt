@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(qut_msgs)
+project(rv_msgs)
 
 # Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -17,26 +17,26 @@ find_package(catkin REQUIRED COMPONENTS
 # confused so you have to compile the workspace from scratch when adding new
 # files)
 # file(
-#   GLOB qut_msgs_MESSAGES
+#   GLOB rv_msgs_MESSAGES
 #   RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/msg"
 #   "./msg/*.msg"
 #   )
 # file(
-#   GLOB qut_msgs_SERVICES
+#   GLOB rv_msgs_SERVICES
 #   RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/srv"
 #   "./srv/*.srv"
 #   )
 # file(
-#   GLOB qut_msgs_ACTIONS
+#   GLOB rv_msgs_ACTIONS
 #   RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/action"
 #   "./action/*.action"
 #   )
 
-# add_message_files(FILES ${qut_msgs_MESSAGES})
+# add_message_files(FILES ${rv_msgs_MESSAGES})
 
-# add_service_files(DIRECTORY srv FILES ${qut_msgs_SERVICES})
+# add_service_files(DIRECTORY srv FILES ${rv_msgs_SERVICES})
 
-# add_action_files(DIRECTORY action FILES ${qut_msgs_ACTIONS})
+# add_action_files(DIRECTORY action FILES ${rv_msgs_ACTIONS})
 
 # Proper way (use ':r !ls <dir_name>' to populate easily...)
 add_message_files(FILES
@@ -85,7 +85,7 @@ generate_messages(
 
 catkin_package(
   #  INCLUDE_DIRS include
-  #  LIBRARIES qut_msgs
+  #  LIBRARIES rv_msgs
   CATKIN_DEPENDS actionlib_msgs
   #  DEPENDS system_lib
   )

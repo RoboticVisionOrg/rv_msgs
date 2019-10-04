@@ -1,5 +1,5 @@
 # Request
-qut_msgs/Object face
+rv_msgs/Object face
 ---
 # Response
 string person_name
