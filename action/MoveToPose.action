@@ -1,0 +1,8 @@
+# Goal definition
+geometry_msgs/PoseStamped goal_pose
+---
+# Result definition
+int8 result
+---
+# Feedback definition
+int8 status

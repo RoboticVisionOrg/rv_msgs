@@ -1,0 +1,8 @@
+# Goal definition
+string location_name
+---
+# Result definition
+int8 result
+---
+# Feedback definition
+int8 status

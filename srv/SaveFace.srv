@@ -1,5 +1,5 @@
 # Request
-patrolbot_msgs/Object face
+qut_msgs/Object face
 ---
 # Response
 string person_name
