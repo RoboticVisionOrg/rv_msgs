@@ -51,6 +51,7 @@ add_service_files(DIRECTORY srv FILES
   GetHoldingStatus.srv
   GetLocationPose.srv
   GetObjectPose.srv
+  GetRelativePose.srv
   GetSyncedImages.srv
   GetNamesList.srv
   GuessGender.srv
