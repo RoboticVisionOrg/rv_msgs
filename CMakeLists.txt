@@ -40,7 +40,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 # Proper way (use ':r !ls <dir_name>' to populate easily...)
 add_message_files(FILES
-  Object.msg
+  Detection.msg
+  Objects.msg
   )
 
 add_service_files(DIRECTORY srv FILES

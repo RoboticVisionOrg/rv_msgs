@@ -3,4 +3,4 @@ sensor_msgs/Image input_depth_image
 sensor_msgs/Image input_rgb_image
 ---
 # Response
-rv_msgs/Object[] objects
+rv_msgs/Objects objects

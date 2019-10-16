@@ -1,5 +1,5 @@
 # Request
-rv_msgs/Object face
+rv_msgs/Detection face
 ---
 # Response
 string person_name

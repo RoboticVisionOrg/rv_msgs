@@ -1,7 +1,7 @@
-# Object details
+# Detected class
 string class_label
 
-# Object location
+# Detection box location
 uint16 x_left
 uint16 y_top
 uint16 width
