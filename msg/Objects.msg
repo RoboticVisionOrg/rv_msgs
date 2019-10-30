@@ -5,4 +5,4 @@ sensor_msgs/CameraInfo rgb_info
 sensor_msgs/Image rgb_image
 
 # List of detections
-rv_msgs/Detection detections
+rv_msgs/Detection[] detections

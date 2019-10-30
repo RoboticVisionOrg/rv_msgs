@@ -1,0 +1,8 @@
+# Goal definition
+rv_msgs/Objects objects
+---
+# Result definition
+int8 result
+---
+# Feedback definition
+int8 status

@@ -1,6 +1,7 @@
 # Request
 sensor_msgs/Image depth
 sensor_msgs/Image mask
+sensor_msgs/CameraInfo camera_info
 ---
 # Response
 # NOTE:

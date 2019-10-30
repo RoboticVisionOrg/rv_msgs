@@ -42,6 +42,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(FILES
   Detection.msg
   Objects.msg
+  ManipulatorState.msg
   )
 
 add_service_files(DIRECTORY srv FILES
@@ -60,13 +61,16 @@ add_service_files(DIRECTORY srv FILES
   ParseIntent.srv
   RecogniseFace.srv
   SaveFace.srv
+  SetCartesianImpedance.srv
   SetTaskName.srv
+  SetNamedPose.srv
   SimpleRequest.srv
   )
 
 add_action_files(DIRECTORY action FILES
   ActuateGripper.action
   AskQuestion.action
+  GraspObject.action
   Listen.action
   MoveToNamedPose.action
   MoveToPose.action

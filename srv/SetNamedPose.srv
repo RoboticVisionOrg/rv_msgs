@@ -1,0 +1,4 @@
+string pose_name
+bool overwrite
+---
+int8 result
