@@ -52,6 +52,7 @@ add_service_files(DIRECTORY srv FILES
   GetGraspPose.srv
   GetHoldingStatus.srv
   GetLocationPose.srv
+  GetNamedPoseConfigs.srv
   GetObjectPose.srv
   GetRelativePose.srv
   GetSyncedImages.srv
@@ -64,6 +65,7 @@ add_service_files(DIRECTORY srv FILES
   SetCartesianImpedance.srv
   SetTaskName.srv
   SetNamedPose.srv
+  SetNamedPoseConfig.srv
   SimpleRequest.srv
   )
 
