@@ -66,6 +66,7 @@ add_service_files(DIRECTORY srv FILES
   SetTaskName.srv
   SetNamedPose.srv
   SetNamedPoseConfig.srv
+  SetPose.srv
   SimpleRequest.srv
   )
 
