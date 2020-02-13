@@ -41,13 +41,13 @@ find_package(catkin REQUIRED COMPONENTS
 # Proper way (use ':r !ls <dir_name>' to populate easily...)
 add_message_files(FILES
   Detection.msg
-  Objects.msg
+  Observation.msg
   ManipulatorState.msg
   )
 
 add_service_files(DIRECTORY srv FILES
   EstimateAge.srv
-  FindObjects.srv
+  GetDetections.srv
   GetDoorStatus.srv
   GetGraspPose.srv
   GetHoldingStatus.srv

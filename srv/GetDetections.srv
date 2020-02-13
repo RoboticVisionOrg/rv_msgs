@@ -1,0 +1,5 @@
+# Request
+rv_msgs/Observation observation
+---
+# Response
+rv_msgs/Observation result
