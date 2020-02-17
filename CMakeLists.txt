@@ -42,6 +42,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(FILES
   Detection.msg
   Observation.msg
+  JointVelocity.msg
   ManipulatorState.msg
   )
 

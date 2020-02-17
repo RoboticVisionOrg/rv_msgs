@@ -12,3 +12,7 @@ uint16 height
 sensor_msgs/Image cropped_rgb
 sensor_msgs/Image cropped_depth
 sensor_msgs/Image cropped_mask  # Treat this as a white box mask if empty
+
+geometry_msgs/PoseStamped grasp_pose
+float32 grasp_width
+float32 grasp_quality

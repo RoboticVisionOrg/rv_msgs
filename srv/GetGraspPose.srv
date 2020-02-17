@@ -1,10 +1,5 @@
 # Request
-sensor_msgs/Image depth
-sensor_msgs/Image mask
-sensor_msgs/CameraInfo camera_info
+rv_msgs/Observation observation
 ---
 # Response
-bool success
-geometry_msgs/PoseStamped grasp_pose
-float32 width
-float32 quality
+rv_msgs/Observation result
