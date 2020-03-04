@@ -1,8 +1,0 @@
-# Request
-sensor_msgs/Image depth
-sensor_msgs/Image mask
-float64 offset
----
-# Response
-bool success
-geometry_msgs/PoseStamped object_pose

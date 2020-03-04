@@ -79,6 +79,7 @@ add_action_files(DIRECTORY action FILES
   MoveToNamedPose.action
   MoveToPose.action
   SayString.action
+  ServoToPose.action
   )
 
 # Generate added messages and services with any dependencies listed here

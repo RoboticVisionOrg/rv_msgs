@@ -1,6 +1,0 @@
-# Request
-string camera_namespace
----
-# Response
-sensor_msgs/Image synced_depth_image
-sensor_msgs/Image synced_rgb_image

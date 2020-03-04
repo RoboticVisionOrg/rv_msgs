@@ -1,0 +1,8 @@
+geometry_msgs/PoseStamped stamped_pose
+float32 scaling
+---
+# Result definition
+int32 result
+---
+# Feedback definition
+float64 feedback

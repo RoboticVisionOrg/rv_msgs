@@ -1,5 +1,0 @@
-# Request
-sensor_msgs/Image face_image
----
-# Response
-string person_name
