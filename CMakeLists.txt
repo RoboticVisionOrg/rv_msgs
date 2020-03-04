@@ -47,21 +47,14 @@ add_message_files(FILES
   )
 
 add_service_files(DIRECTORY srv FILES
-  EstimateAge.srv
-  GetDetections.srv
   GetDoorStatus.srv
-  GetGraspPose.srv
   GetHoldingStatus.srv
   GetLocationPose.srv
   GetNamedPoseConfigs.srv
-  GetObjectPose.srv
   GetRelativePose.srv
-  GetSyncedImages.srv
   GetNamesList.srv
-  GuessGender.srv
-  NamedPoseQuery.srv
   ParseIntent.srv
-  RecogniseFace.srv
+  ProcessObservation.srv
   SaveFace.srv
   SetCartesianImpedance.srv
   SetTaskName.srv
