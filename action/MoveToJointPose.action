@@ -1,0 +1,9 @@
+# Goal definition
+float64[] joints
+float32 speed
+---
+# Result definition
+int8 result
+---
+# Feedback definition
+int8 status

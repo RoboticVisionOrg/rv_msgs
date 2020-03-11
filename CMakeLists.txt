@@ -70,6 +70,7 @@ add_action_files(DIRECTORY action FILES
   GraspObject.action
   Listen.action
   MoveToNamedPose.action
+  MoveToJointPose.action
   MoveToPose.action
   SayString.action
   ServoToPose.action
