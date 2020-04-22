@@ -6,7 +6,9 @@ uint16 CARTESIAN_LIMIT_VIOLATION = 16
 uint16 OTHER = 32768
 
 geometry_msgs/PoseStamped ee_pose
+
 float64[] joint_poses
+float64[] joint_torques
 
 int32[6] cartesian_collision
 int32[6] cartesian_contact
