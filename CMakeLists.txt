@@ -50,6 +50,7 @@ add_service_files(DIRECTORY srv FILES
   GetDoorStatus.srv
   GetHoldingStatus.srv
   GetLocationPose.srv
+  GetManipulability.srv
   GetNamedPoseConfigs.srv
   GetRelativePose.srv
   GetNamesList.srv
