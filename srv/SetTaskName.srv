@@ -1,5 +1,0 @@
-# Request
-string new_task_name
----
-# Response
-bool success

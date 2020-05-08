@@ -1,6 +1,0 @@
-# Request
-rv_msgs/Detection face
----
-# Response
-string person_name
-

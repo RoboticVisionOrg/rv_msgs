@@ -6,7 +6,7 @@ project(rv_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   # mvp_grasping
-  actionlib_msgs
+  #actionlib_msgs
   message_generation
   sensor_msgs
   shape_msgs
@@ -40,48 +40,21 @@ find_package(catkin REQUIRED COMPONENTS
 
 # Proper way (use ':r !ls <dir_name>' to populate easily...)
 add_message_files(FILES
-  Detection.msg
-  Observation.msg
-  JointVelocity.msg
-  ManipulatorState.msg
+  ROS1Message.msg
   )
 
 add_service_files(DIRECTORY srv FILES
   GetDoorStatus.srv
-  GetHoldingStatus.srv
-  GetLocationPose.srv
-  GetManipulability.srv
-  GetNamedPoseConfigs.srv
-  GetRelativePose.srv
-  GetNamesList.srv
-  ParseIntent.srv
-  ProcessObservation.srv
-  SaveFace.srv
-  SetCartesianImpedance.srv
-  SetTaskName.srv
-  SetNamedPose.srv
-  SetNamedPoseConfig.srv
-  SetPose.srv
-  SimpleRequest.srv
   )
 
-add_action_files(DIRECTORY action FILES
-  ActuateGripper.action
-  AskQuestion.action
-  GraspObject.action
-  Listen.action
-  MoveToNamedPose.action
-  MoveToJointPose.action
-  MoveToPose.action
-  SayString.action
-  ServoToPose.action
-  )
+#add_action_files(DIRECTORY action FILES
+#  )
 
 # Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
   # mvp_grasping
-  actionlib_msgs
+  # actionlib_msgs
   sensor_msgs
   std_msgs
   )
@@ -89,6 +62,6 @@ generate_messages(
 catkin_package(
   #  INCLUDE_DIRS include
   #  LIBRARIES rv_msgs
-  CATKIN_DEPENDS actionlib_msgs
+  #CATKIN_DEPENDS actionlib_msgs
   #  DEPENDS system_lib
   )

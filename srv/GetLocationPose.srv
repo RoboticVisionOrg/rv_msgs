@@ -1,5 +1,0 @@
-# Request
-string location_name
----
-# Response
-geometry_msgs/Pose location_pose
