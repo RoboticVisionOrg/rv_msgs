@@ -1,5 +1,0 @@
-# Gets the pose of target, in the reference frame
-string frame_target
-string frame_reference
----
-geometry_msgs/PoseStamped relative_pose

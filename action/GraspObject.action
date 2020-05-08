@@ -1,9 +1,0 @@
-# Goal definition
-rv_msgs/Observation observation
-int32 index # index of the item in rv_msgs/Observation/detections to grasp
----
-# Result definition
-int8 result
----
-# Feedback definition
-int8 status

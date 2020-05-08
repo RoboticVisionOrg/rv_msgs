@@ -1,6 +1,0 @@
-# Request
-float32 expected_weight  # Not sure if this makes any sense???
----
-# Response
-bool is_holding
-float32 weight_held

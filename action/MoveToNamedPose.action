@@ -1,9 +1,0 @@
-# Goal definition
-string pose_name
-float32 speed
----
-# Result definition
-int8 result
----
-# Feedback definition
-int8 status

@@ -1,3 +1,5 @@
 -
   ros1_package_name: 'rv_msgs'
+  ros1_message_name: 'ROS1Message'
   ros2_package_name: 'rv_msgs'
+  ros2_message_name: 'ROS2Message'
