@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>rv_msgs</name>
-  <version>0.3.2</version>
+  <version>0.3.3</version>
   <description>The rv_msgs package</description>
 
   <maintainer email="g.suddrey@qut.edu.au">Gavin Suddrey</maintainer>
@@ -9,13 +9,16 @@
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>actionlib_msgs</build_depend>
   <build_depend>message_generation</build_depend>
-  <exec_depend>actionlib_msgs</exec_depend>
+  
   <exec_depend>message_generation</exec_depend>
   <exec_depend>message_runtime</exec_depend>
 
-    <!-- The export tag contains other, unspecified, tags -->
+  <depend>actionlib_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
   <export>
   </export>
 </package>

@@ -9,7 +9,6 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
   message_generation
   sensor_msgs
-  shape_msgs
   std_msgs
   )
 
@@ -40,6 +39,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 # Proper way (use ':r !ls <dir_name>' to populate easily...)
 add_message_files(FILES
+  Click.msg
   Detection.msg
   Observation.msg
   JointVelocity.msg
