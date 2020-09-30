@@ -1,0 +1,8 @@
+# task definition
+rv_msgs/Observation table_image
+---
+# result definition
+nav_msgs/OccupancyGrid space
+# ---
+# # feedback
+# string text

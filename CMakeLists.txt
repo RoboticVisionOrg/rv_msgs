@@ -10,6 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   sensor_msgs
   std_msgs
+  nav_msgs
   )
 
 # GLOB method (pro: don't have to write out & maintain lists, con: CMake gets
@@ -52,6 +53,7 @@ add_service_files(DIRECTORY srv FILES
   GetLocationPose.srv
   GetManipulability.srv
   GetNamedPoseConfigs.srv
+  GetOccupancyGridFromObservation.srv
   GetRelativePose.srv
   GetNamesList.srv
   ParseIntent.srv
@@ -84,6 +86,7 @@ generate_messages(
   actionlib_msgs
   sensor_msgs
   std_msgs
+  nav_msgs
   )
 
 catkin_package(

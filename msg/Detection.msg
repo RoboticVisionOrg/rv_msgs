@@ -1,6 +1,9 @@
 # Detected class
 string class_label
 
+# Detection confidence
+float32 confidence
+
 # Detection box location
 uint16 x_left
 uint16 y_top
